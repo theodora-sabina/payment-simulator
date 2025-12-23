@@ -24,18 +24,6 @@ The test suite consists of isolated, independent test cases designed to validate
 
 ---
 
-## Project Structure
-src/
-├── main/java/com/payment/
-│   ├── client/       # TCP Socket transport logic
-│   ├── config/       # Framework and network configuration
-│   ├── exception/    # Custom exceptions
-│   └── model/        # Message formatting and constants
-└── test/java/com/payment/
-└── tests/            # TestNG automated test cases
-
----
-
 ## Installation & Setup
 ### 1. Prerequisites
     * Java 18 or higher.
