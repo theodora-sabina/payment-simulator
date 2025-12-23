@@ -39,7 +39,7 @@ public class PaymentSimulatorTest {
         String request = PaymentMessage.buildRequest(PaymentMessage.SALE_REQUEST, 9999.00);
         String response = client.executeTransaction(request);
 
-        Assert.assertFalse(response.contains(PaymentMessage.SUCCESS_CODE),
+        Assert.assertTrue(response.contains(PaymentMessage.DECLINE_CODE),
                 "Transaction should have been declined but returned success.");
         log.info("Test Passed: Decline logic verified.");
     }
