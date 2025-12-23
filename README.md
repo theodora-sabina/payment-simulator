@@ -50,11 +50,11 @@ mvn clean install
 
 ### 4. Run tests
 
-# Compile
+### Compile
 mvn clean compile
 
-# Run all tests
+### Run all tests
 mvn test
 
-# Run specific test class
+### Run specific test class
 mvn test -Dtest=PaymentTransactionTest
